@@ -62,14 +62,14 @@
 .d-buttons-container{
     position: relative;
     gap: 1rem;
-    
-   
-   
+    width: 100px;
+    justify-content: center;
+    left: 50%;
+    margin-left: -50px;
 }
 .d-buttons{
     position: absolute;
-    
-    align-items: center;  
+    align-items: center;
 }
 .d-buttons-container button{
     font-size: 1.2rem;
