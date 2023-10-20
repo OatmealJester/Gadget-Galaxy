@@ -10,9 +10,11 @@ const Header = () => {
   return (
     <section className="h-wrapper">
       <div className="h-container">
-      <Link to="/">
-          <h1 className="primaryText">GadgetGalaxy</h1>
-        </Link>
+        <div className="logo-wrapper">
+          <Link to="/">
+              <h1 className="primaryText">GadgetGalaxy</h1>
+          </Link>
+        </div>
         <div className="search-bar">
           <input type="text" placeholder="Search any product" />
         </div>

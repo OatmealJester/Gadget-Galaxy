@@ -5,15 +5,24 @@
     height: 70px;
     border: 1px solid;
     border-color: blueviolet;
-  }
-  .h-container{
-    max-width: 1200px;
-    margin: auto;
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    padding: 10px 20px;
-  }
+}
+.h-container{
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo-wrapper a{
+  text-decoration: none;
+}
+
+.logo-wrapper h1{
+  margin-top: 0.2rem;
+  padding-top: 2px;
+}
 
 .search-bar{
     width: 400px;
