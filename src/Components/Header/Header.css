@@ -89,6 +89,14 @@
     margin: 10px auto;
   }
 
+  .dropdown-menu a{
+    text-decoration: none;
+  }
+
+  .dropdown-menu a:visited{
+    color: rgb(140, 0, 255);
+  }
+
   /* menu div */
   .h-menu{
     z-index: 100;
@@ -96,22 +104,18 @@
     font-weight: bold;
     display: flex;
     gap: 15px;
-    cursor: pointer;
     color: rgb(140, 0, 255);
     position: relative;
     
 }
 .h-menu :hover{
   cursor: pointer;
-    text-decoration: underline ;
     color:rgb(203, 156, 247);
     transform: scale(1.05);
 
 }
 
 .h-menu {
-  text-decoration:none;
-  
   padding: 5px 10px;
   transition: color 0.3s;
 }
