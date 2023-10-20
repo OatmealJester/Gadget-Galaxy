@@ -18,8 +18,9 @@
   
 }
 
- 
-  
+.footer-logo-wrapper{
+  margin-top: 1rem;
+}
 
 
 .footer__logo {
@@ -47,6 +48,11 @@
 .footer__content p {
   display: flexbox;
   margin-top: 1rem;
+}
+
+.footer__content p a{
+  color: rgb(167, 72, 239);
+  text-decoration: none;
 }
 
 /* border-image-source sets the image to be used as the border. 

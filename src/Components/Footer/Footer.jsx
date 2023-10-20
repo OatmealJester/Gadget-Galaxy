@@ -10,7 +10,9 @@ const Footer = () => {
         <img src="src/assets/gg_Logo.PNG" alt="Logo" />
        
       </div>
-      <span className="primaryText">Gadget Galaxy</span> {/* Logo text */}
+      <div className="footer-logo-wrapper">
+        <span className="primaryText">Gadget Galaxy</span> {/* Logo text */}
+      </div>
       <div className="footer__content">
         <p>© 2023 Gadget Galaxy. All rights reserved.</p>
         <p>
